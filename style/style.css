@@ -1,0 +1,86 @@
+body{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+    background: linear-gradient(320deg, rgb(134, 134, 255), rgb(195, 188, 188), #63c9b4);
+}
+
+#form{
+    border: 4px whitesmoke;
+    box-shadow: 3px black;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(249, 249, 249, 0.6);
+    
+}
+
+
+button{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-family: sans-serif;
+    border: 6px white solid;    
+    padding: 36px;
+    border-radius: 15px;
+    font-size: 15pt;
+    font-weight: bolder;
+    box-shadow: black 3px; 
+}
+
+#visor{
+    width: 99%;
+    height: 65px;
+    border: 3px white solid;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15pt;    
+    box-shadow: black;
+    align-items: center;
+    text-align: center;
+}
+
+#delete{
+width: 100%;
+height: 65px;
+background-color: #f8fcfc;
+border: 6px #f8fcfc solid;
+border-radius: 15px;
+font-weight: bolder;
+font-size: 18pt;
+box-shadow: black;
+align-items: center;
+text-align: center;
+padding-top: 15px;
+color: rgba(0, 0, 0, 1);
+font-family: sans-serif;
+
+}
+
+
+    
+
+button:hover{
+    cursor: pointer;
+     background-color: #f4f5fa;
+     border: 6px #f4f5fa solid;
+}
+
+#operador{
+    background-color: #f8fcfc;
+    border: 6px #f8fcfc solid;
+    
+}
+
+#operador:hover{
+    cursor: pointer;
+    background-color: #f0f8ff ;
+    border: 6px #f0f8ff solid;
+}
+
+#delete:hover{
+    cursor: pointer; 
+    background-color: #f0f8ff ;
+    border: 6px #f0f8ff solid;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do Windows</title>
+    <link href="style/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Calculadora Do Uindous</h1>
+    </header>
+
+    <div id="form">
+    
+    <input type="text" id="visor" placeholder="A operação aparecera aqui!!"> <br> <br>
+    <button id="delete" onclick="apagar()"><--</button> <br> <br>
+    <button onclick="display(9)">9</button> <button onclick="display(8)">8</button> <button onclick="display(7)">7</button> <button id="operador" onclick="simbolo('*')">*</button> <br> <br>
+    <button onclick="display(6)">6</button> <button onclick="display(5)">5</button> <button onclick="display(4)">4</button> <button id="operador" onclick="simbolo('/')">/</button> <br> <br>
+    <button onclick="display(3)">3</button> <button onclick="display(2)">2</button> <button onclick="display(1)">1</button> <button id="operador" onclick="simbolo('+')">+</button> <br> <br>
+    <button onclick="display(0)">0</button> <button id="operador" onclick="simbolo('-')">-</button> <button id="operador" onclick="clean()"> C </button> <button id="operador" onclick="calcular()">=</button> <br>   
+</div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
